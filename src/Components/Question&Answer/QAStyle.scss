@@ -20,14 +20,14 @@
 
   .card {
     margin-top: 20px;
-    max-width: 700px;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
 
     .title {
-      width: 700px;
+      width: 100%;
       background-color: #303030;
       margin-bottom: 3px;
       height: 60px;
@@ -42,6 +42,7 @@
     }
 
     .subTitle {
+      width: 100%;
       padding: 15px;
       box-sizing: border-box;
       background-color: #303030;
@@ -49,6 +50,27 @@
       word-spacing: 2px;
       line-height: 30px;
       display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .QA {
+    .card {
+      width: 100%;
+    }
+
+    .heading {
+      font-size: 30px;
+    }
+    padding: 30px 20px;
+    .card {
+      .title {
+        font-size: 19px;
+      }
+      .subTitle {
+        font-size: 17px;
+      }
     }
   }
 }

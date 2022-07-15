@@ -11,21 +11,34 @@ export function Ads() {
             players and more.
           </p>
         </article>
-        <div className="image">
+        <section
+          className="image"
+          // style={{
+          //   backgroundImage: `url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png")`,
+          // }}
+        >
           <img
             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
             alt=""
             srcset=""
           />
-        </div>
+          <div className="video-main">
+            <video autoPlay={true} muted loop>
+              <source
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </section>
       </div>
 
       <div className="ad">
         <div className="image">
-          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" />{" "}
+          <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" />
         </div>
         <article>
-          <h1 className="title">download your shows to watch offline</h1>
+          <h1 className="title">Download your shows to watch offline</h1>
           <p className="subTitle">
             Save your favourites easily and always havee something to watch.
           </p>
@@ -40,9 +53,17 @@ export function Ads() {
             TV.
           </p>
         </article>
-        <div className="image">
+        <section className="image">
           <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" />{" "}
-        </div>
+          <div className="video-main">
+            <video autoPlay={true} muted loop>
+              <source
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </section>
       </div>
 
       <div className="ad">
