@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hasifdeveloper/netflix/static/css/main.cb5460de.css",
+    "main.js": "/hasifdeveloper/netflix/static/js/main.d9d25ade.js",
+    "index.html": "/hasifdeveloper/netflix/index.html",
+    "main.cb5460de.css.map": "/hasifdeveloper/netflix/static/css/main.cb5460de.css.map",
+    "main.d9d25ade.js.map": "/hasifdeveloper/netflix/static/js/main.d9d25ade.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb5460de.css",
+    "static/js/main.d9d25ade.js"
+  ]
+}
